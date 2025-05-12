@@ -1,0 +1,79 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+}
+h2,h1{
+    color: pink;
+}
+.mynd-vinstra, .mynd-hægra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .mynd-vinstra .mynd img,
+  .mynd-hægra .mynd img {
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Myndin vinstra megin */
+  .mynd-vinstra .mynd {
+    order: 1;
+  }
+  .mynd-vinstra .texti {
+    order: 2;
+    flex: 1;
+  }
+  
+  /* Myndin hægra megin */
+  .mynd-hægra .mynd {
+    order: 2;
+  }
+  .mynd-hægra .texti {
+    order: 1;
+    flex: 1;
+  }
+  .stór-mynd {
+    text-align: center;
+    margin: 60px 0;
+  }
+  
+  .stór-mynd img {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  }
+  
+  .texti {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  p{
+    font-size: 18px;
+  }
+  .midja-texti {
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    color: #888;
+  }  
